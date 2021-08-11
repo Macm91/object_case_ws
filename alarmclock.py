@@ -5,6 +5,7 @@ class alarm_clock:
             self.the_current_time = "4:00"
             self.alarm_time = time
             self.toggle_on = True
+
     #methods to set the alarm
         def set_alarm_time(self):
             self.set_alarm_time = input ("Please enter a time for your alarm.")
